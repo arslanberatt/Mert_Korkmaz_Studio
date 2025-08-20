@@ -15,7 +15,6 @@ import pt_mert_logo from "./pt_mert_logo.svg";
 import quote from "./quote.png";
 import star from "./Star.svg";
 import menu from "./menu.svg";
-import send from "./send.svg";
 import close from "./close.svg";
 import instagram from "./instagram.svg";
 import silverMedal from "./silver-medal.png";
@@ -25,7 +24,6 @@ export {
   image1,
   fist,
   muscle,
-  send,
   shield,
   muayThai,
   image2,
