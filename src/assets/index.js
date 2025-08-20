@@ -2,9 +2,6 @@ import image1 from "./image1.jpg";
 import image2 from "./image2.jpg";
 import image3 from "./image3.jpg";
 import image4 from "./image4.jpg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 import telephone from "./telephone.png";
 import mail from "./mail.png";
 import clock from "./clock.png";
@@ -22,6 +19,7 @@ import send from "./send.svg";
 import close from "./close.svg";
 import instagram from "./instagram.svg";
 import silverMedal from "./silver-medal.png";
+import muayThai from "./muay-thai.png";
 
 export {
   image1,
@@ -29,12 +27,10 @@ export {
   muscle,
   send,
   shield,
+  muayThai,
   image2,
   image3,
   image4,
-  people01,
-  people02,
-  people03,
   telephone,
   mail,
   clock,

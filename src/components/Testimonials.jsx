@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <section
       id="yorumlar"
-      className={`${styles.flexCenter} md:pt-16 pb-96 md:pb-72 lg:48 flex-col relative`}
+      className={`${styles.flexCenter} pt-16 pb-16 lg:48 flex-col relative`}
     >
       <div />
       <div className="w-full flex justify-around items-center md:flex-row flex-col mb-6 px-2 relative z-[1]">

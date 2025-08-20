@@ -8,6 +8,7 @@ import {
   Hero,
 } from "./components";
 import Gallery from "./components/Gallery";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
               <Business />
               <Gallery />
               <Testimonials />
+              <Pricing />
             </div>
           </div>
           <Footer />

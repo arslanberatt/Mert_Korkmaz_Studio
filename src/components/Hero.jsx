@@ -6,7 +6,7 @@ import GetStarted from "./GetStarted";
 const Hero = () => {
   return (
     <section
-      id="home"
+      id="hero"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
@@ -39,7 +39,7 @@ const Hero = () => {
             "
           >
             Muay Thai ile <br className="sm:block hidden" />
-            <span className="text-gradient">Gücünü</span> Keşfet
+            <span className="text-gradient">GÜCÜNÜ</span> Keşfet
           </h1>
         </div>
         <div

@@ -1,7 +1,4 @@
 import {
-  people01,
-  people02,
-  people03,
   fist,
   shield,
   muscle,
@@ -58,26 +55,23 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Antrenmanlardan sonra kondisyonum ve özgüvenim inanılmaz gelişti.",
-    name: "Ahmet Yılmaz",
+      "Uzun zamandır boks için güzel bir stüdyo arıyordum ve doğru tercihi mert kardeşimle verdigimi düşünüyorum ilgilerinden dolayı çok teşekkürler.",
+    name: "Murat Büyüközkara",
     title: "Öğrenci",
-    img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Boks dersleri sayesinde hem kilo verdim hem de disiplin kazandım.",
-    name: "Elif Kaya",
+      "Başka bir yerde grup dersi alıyordum. Yakın fiyata burda özel ders alıyorum. Her şey güzel gidiyor tavsiye ederim bu civardaki en iyi yer.",
+    name: "Begüm Kahraman",
     title: "Öğrenci",
-    img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Muaythai dersleri çok eğlenceli, teknikleri kolayca öğrenebiliyorsunuz.",
-    name: "Mehmet Demir",
+      "Tercih edilebilecek tek yer diyorum. Samimiyeti dersin gidişatı çok başarılı teşekkürler Mert hocam.",
+    name: "Berfin Tanık",
     title: "Öğrenci",
-    img: people03,
   },
 ];
 
