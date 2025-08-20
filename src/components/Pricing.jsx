@@ -103,15 +103,16 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
-              <button
+              <a
                 className={`py-3 cursor-pointer font-bold border border-white ${
                   pkg.highlight
                     ? "bg-red-600 hover:bg-red-700"
                     : "bg-white text-black hover:bg-gray-200"
                 }`}
+                href="#hero"
               >
                 {pkg.button.toUpperCase()}
-              </button>
+              </a>
             </div>
           ))}
         </div>

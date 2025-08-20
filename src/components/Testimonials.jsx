@@ -10,7 +10,7 @@ const Testimonials = () => {
       className={`${styles.flexCenter} pt-16 pb-16 lg:48 flex-col relative`}
     >
       <div />
-      <div className="w-full flex justify-center items-center md:flex-row mb-6 px-2 relative z-[1]">
+      <div className="w-full flex justify-center items-center md:flex-row flex-col mb-6 px-2 relative z-[1]">
         <h1
           className={`${styles.heading2} font-poppins font-semibold
               text-[32px] leading-[42px]
@@ -22,7 +22,7 @@ const Testimonials = () => {
         <div className="w-full md:mt-0 mt-6">
           <p
             className={`
-            ${styles.paragraph} text-left flex
+            ${styles.paragraph} text-left
             text-[14px] leading-[22px]     
             sm:text-[16px] sm:leading-[26px]
             md:text-[18px] md:leading-[28px]  
@@ -35,7 +35,7 @@ const Testimonials = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1]">
+      <div className="flex flex-wrap justify-around w-full relative z-[1]">
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}
