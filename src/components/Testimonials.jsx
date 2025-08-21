@@ -9,20 +9,19 @@ const Testimonials = () => {
       id="yorumlar"
       className={`${styles.flexCenter} pt-16 pb-16 lg:48 flex-col relative`}
     >
-      <div />
-      <div className="w-full flex justify-center items-center md:flex-row flex-col mb-6 px-2 relative z-[1]">
-        <h1
-          className={`${styles.heading2} font-poppins font-semibold
+      <div className="w-full flex justify-center items-center flex-col mb-6 px-2 relative z-[1]">
+        <div className="w-full flex  md:flex-row justify-center md:justify-around  items-center flex-col md:mt-0 mt-6">
+          <h1
+            className={` font-poppins font-semibold
               text-[32px] leading-[42px]
               sm:text-[36px] sm:leading-[56px]
               lg:text-[42px] md:leading-[72px]`}
-        >
-          Öğrencilerimiz <br className="sm:block hidden" /> Ne Diyor?
-        </h1>
-        <div className="w-full md:mt-0 mt-6">
+          >
+            Öğrencilerimiz <br className="sm:block hidden" /> Ne Diyor?
+          </h1>
           <p
             className={`
-            ${styles.paragraph} text-left
+            ${styles.paragraph} text-left mt-5 px-5
             text-[14px] leading-[22px]     
             sm:text-[16px] sm:leading-[26px]
             md:text-[18px] md:leading-[28px]  
